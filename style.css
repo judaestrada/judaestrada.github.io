@@ -1,0 +1,24 @@
+body {
+    font-family: system-ui;
+    background: linear-gradient(to bottom, darkorchid, #6b238f);
+    color: white;
+    height: 100vh;
+    margin: 0;
+    display: grid;
+    place-items: center;
+  }
+
+.identificadorUnico {
+    font-family: system-ui;
+    background: linear-gradient(to bottom, rgb(25, 87, 87), #6b238f);
+    color: white;
+    height: 100vh;
+    margin: 0;
+    display: grid;
+    place-items: center;
+
+    border-radius: 150px;
+    padding: 100px; 
+    width: 1000px;
+    height: 1000px;  
+  }
