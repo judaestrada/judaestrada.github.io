@@ -1,120 +1,212 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    
-    <link rel = "stylesheet" type = "text/css" href = "/style.css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Edwin Estrada's resume</title>
-</head>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- START NAV -->
 
-<body class="grid">
-    <h1>The following is a random list of elements that define my personality and life events.</h1>
-    <section class="identificadorUnico">
-<!--Falta agregar una imagen que represente lo que soy-->
-        <h2>Full name: Edwin Isaac Estrada Rodríguez</h2>
-     
-         <p>
-            I prefer to be called Edwin. I am a full-stack developer, I have a background in business and I've been a student of several universities.
-         </p>
-         <h2>Full name: Edwin Isaac Estrada Rodríguez</h2>
-         <p>
-            I prefer to be called Edwin. I am a full-stack developer, I have a background in business and I've been a student of several universities.
-         </p>
-     
-     </section>
+    <nav id="navbar" class="nav">
+      <ul class="nav-list">
+        <li>
+          <a href="#welcome-section">About</a>
+        </li>
+        <li>
+          <a href="#projects">Work</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- END NAV -->
+
+    <!-- START WELCOME SECTION -->
+
+    <section id="welcome-section" class="welcome-section">
         
-     <section class="identificadorUnico">
-         <div id="divisor">
-
-        <h2>Programming Languages I have made use from college and businesses:</h2>
-     
-        <ul>
-            <li>C, C++.</li>
-            <li>ARM Assembly</li>
-            <li>python, R, RStudio</li>
-            <li>Java OOP</li>
-            <li>Javascript</li>
-            <li>Apex</li>
-          </ul>
-        </div> 
-     </section>
-
-<section class="identificadorUnico">
-
-   <h2>¿What do I think about LGBT+?</h2><!-- Quiero agregar un widget que se mueva cada 5 segundos alternando entre los siguientes temas ( LGBT, 
-                                                                                                Conspiraciones, inteligencia artificial, futuro de la humanidad ) -->
-    <img src="gayflag.jpg" alt="gay flag"><!-- Subir una imagen con una mano agarrando una bandera lgbt -->
-
-    <p>
-        
-        I think anyone who has been harassed in any way thanks to homosexuality discrimination is an active member of this movement. 
-        I consider myself male but I also want to help earlier gender movements become visible without repression.
-    </p>
-
-</section>
-
-<section class="identificadorUnico">
-
-    <h2>¿Which universities have I been to and for how long?</h1>
- 
-     <p>
-         Answer: 
-         <ul>
-            <li>Universidad Nacional Autónoma de México 5 years</li>
-            <li>Universidad de Málaga 1 year</li>
-            <li>Universidad Veracruzana 2 years</li>
-            <li>Instituto Veracruzano de Educación Superior 1 year</li>
-            <li>Instituto Tecnológico Superior de Xalapa 1 year</li>
-          </ul>
-     </p>
- 
- </section>
- 
- <section class="identificadorUnico">
-
-    <h2>Where does my nickname 'Estro' come from?</h1>
- 
-     <p>
-         Answer: 
-        It comes from both "ESTrada" and "ROdríguez".
-     </p>
- 
- </section>
-
- <section class="identificadorUnico">
-
-    <h2>What do I think about HIV?</h1>
- 
-     <p>
-         Answer: 
-        It hurts me a lot to know that HIV is a disease that affects people from all over the world.
-        They suffer a lot of discrimination and I think it is a very important thing to know.
-        Something must be done to help accelerate the transition to a HIV discrimination free world.
-     </p>
- 
- </section>
-
- <section class="identificadorUnico">
-
-    <h2>My first volunteering</h1>
- 
-     <p>
-         It was in Málaga while studying at the Universidad de Málaga. The project was to deploy internet wifis
-         and old laptops recovered with linux operating system. This helping poor kids in the area access internet in a free way.
-     </p>
- 
- </section>
+      <h1>Hey I am Edwin Estrada</h1>
+      
+      
+      <div>
+      <span id="second" class="circle"><h2>a </h2></span>
+      <span id="third" class="circle"><p>Salesforce</p></span>
+      <span id="fourth" class="circle"><h2>Developer</h2></span>
+    </div>
 
 
 
+    </section>
 
+    <!-- END WELCOME SECTION -->
 
+    <!-- START PROJECTS SECTION -->
 
-</body>
+    <section id="projects" class="projects-section">
+      <h2 class="projects-section-header">These are some of my milestones</h2>
 
+      <div class="projects-grid">
+        <a
+          href="https://edwinestro.github.io"
+          target="_blank"
+          class="project project-tile"
+        >
+          <img
+            class="project-image"
+            src="edwin.png"
+            alt="project"
+          />
+          <p class="project-title">
+            <span class="code">&lt;</span>
+            Random stuff about me
+            <span class="code">&#47;&gt;</span>
+          </p>
+        </a>
+        <iframe src="https://www.superqbit.com/trailhead?uid=0058W00000CqWyMQAV&type=c12" style="border:none;overflow:hidden;" width="100%" height="350px" scrolling="no"></iframe>
+        <a
+            <span class="code"></span>
+            <a href="https://trailblazer.me/id/edwinestro" style="color:blue">I am a proud Trailhead Ranger!</a>
+            <span class="code"></span>
+          </p>
+        </a>
+        <!--
+        <a
+          href="https://codepen.io/freeCodeCamp/full/wgGVVX"
+          target="_blank"
+          class="project project-tile"
+        >
+          <img
+            class="project-image"
+            src="https://cdn.freecodecamp.org/testable-projects-fcc/images/calc.png"
+            alt="project"
+          />
+          <p class="project-title">
+            <span class="code">&lt;</span>
+            JavaScript Calculator
+            <span class="code">&#47;&gt;</span>
+          </p>
+        </a>
+        <a
+          href="https://codepen.io/freeCodeCamp/full/mVEJag"
+          target="_blank"
+          class="project project-tile"
+        >
+          <img
+            class="project-image"
+            src="https://cdn.freecodecamp.org/testable-projects-fcc/images/map.jpg"
+            alt="project"
+          />
+          <p class="project-title">
+            <span class="code">&lt;</span>
+            Map Data Across the Globe
+            <span class="code">&#47;&gt;</span>
+          </p>
+        </a>
+        <a
+          href="https://codepen.io/freeCodeCamp/full/wGqEga"
+          target="_blank"
+          class="project project-tile"
+        >
+          <img
+            class="project-image"
+            src="https://cdn.freecodecamp.org/testable-projects-fcc/images/wiki.png"
+            alt="project"
+          />
+          <p class="project-title">
+            <span class="code">&lt;</span>
+            Wikipedia Viewer
+            <span class="code">&#47;&gt;</span>
+          </p>
+        </a>
+        <a
+          href="https://codepen.io/freeCodeCamp/full/KzXQgy"
+          target="_blank"
+          class="project project-tile"
+        >
+          <img
+            class="project-image"
+            src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tic-tac-toe.png"
+            alt="project"
+          />
+          <p class="project-title">
+            <span class="code">&lt;</span>
+            Tic Tac Toe Game
+            <span class="code">&#47;&gt;</span>
+          </p>
+        </a>
+      </div>
 
+      <a
+        href="https://codepen.io/FreeCodeCamp/"
+        class="btn btn-show-all"
+        target="_blank"
+        >Show all<i class="fas fa-chevron-right"></i
+      ></a>
+      -->
+    </section>
 
+    <!-- END PROJECTS SECTION -->
 
+    <!-- START CONTACT SECTION -->
+
+    <section id="contact" class="contact-section">
+      <div class="contact-section-header">
+        <h2>Let's work together...</h2>
+        <p>Team Coffee or Team Tea?</p>
+      </div>
+      <div class="contact-links">
+        <a
+          href="https://www.facebook.com/profile.php?id=100082748975393"
+          target="_blank"
+          class="btn contact-details"
+          ><i class="fab fa-facebook-square"></i> Facebook</a
+        >
+        <a
+          id="profile-link"
+          href="https://github.com/edwinestro"
+          target="_blank"
+          class="btn contact-details"
+          ><i class="fab fa-github"></i> GitHub</a
+        >
+        <a href="mailto:edwin.estro@me.com" class="btn contact-details"><i class="fas fa-at"></i> Send a mail</a
+        >
+        <a href="tel:2283081889" class="btn contact-details"
+          ><i class="fas fa-mobile-alt"></i> Call me</a
+        >
+      </div>
+    </section>
+
+    <!-- END CONTACT SECTION -->
+
+    <!-- START FOOTER SECTION -->
+
+    <footer>
+      <p>
+        **I forked and modified this website to adapt it to my profile.
+      </p>
+      <p>
+        &copy; forked from
+        <a href="https://www.freecodecamp.com/" target="_blank"
+          >freeCodeCamp <i class="fab fa-free-code-camp"></i
+        ></a>
+      </p>
+    </footer>
+
+    <!-- END FOOTER SECTION -->
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
 </html>
